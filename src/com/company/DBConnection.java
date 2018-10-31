@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class DBConnection {
 
   public static final String DRIVER = "org.apache.derby.jdbc.EmbeddedDriver";
-  public static final String JDBC_URL = "jdbc:derby:DerbyDemo;create=true";
+  public static final String JDBC_URL = "jdbc:derby:DerbyDemo;";
 
   Connection conn;
 
